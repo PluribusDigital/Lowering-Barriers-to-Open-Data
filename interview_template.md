@@ -1,6 +1,6 @@
 # Interview - Lowering Barriers to Open Data
 
-| Question | Response ---------------------------- |
+| Question | Response____________________________ |
 | --- | ---|
 | Name    |                              |
 | Organization |                          |
