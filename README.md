@@ -32,6 +32,8 @@ This report focuses primarily on the Technology gate.
 ## Using Technology to Break Down Policy Barriers
 * PII Masking
 
+## Open Data Technical Solution Outline
+
 ## Additional Resources
 
 ## Methodology
