@@ -13,6 +13,13 @@ The act of opening up a dataset requires passing through three gates.
 2. **Policy:** The organization must have the legal and internal policy standing to release the information. This includes "hard-stop" issues such as privacy protection, as well as "soft-stop" issues such as an unwillingness to publish a dataset that is likely to soon grow stale.
 3. **Technology:** The organization must have the technical capability to publish the dataset, and ideally do so in accordance with best practice. Dropping a CSV file into a content management system is better than nothing, but API documentation, metadata, query capability, and multiple formats (JSON, XML, etc.) are preferrable.
 
+This report focuses primarily on the Technology gate.
+
+## The Vision: Excellent Technical Implementation of Open Data
+
+
+## Methodology
+
 
 # License Information
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Lowering Barriers to Open Data</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://stsiinc.com/" property="cc:attributionName" rel="cc:attributionURL">STSI</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/STSILABS/Lowering-Barriers-to-Open-Data" rel="dct:source">https://github.com/STSILABS/Lowering-Barriers-to-Open-Data</a>.
