@@ -16,7 +16,23 @@ The act of opening up a dataset requires passing through three gates.
 This report focuses primarily on the Technology gate.
 
 ## The Vision: Excellent Technical Implementation of Open Data
+* Available
+* Machine readable
+* Analyst usable
+* Citizen usable
+* Query
+* Link
+* Cataloged
+* Described
 
+## Breaking Down Technical Barriers
+* Publishing
+* Hosting
+
+## Using Technology to Break Down Policy Barriers
+* PII Masking
+
+## Additional Resources
 
 ## Methodology
 
