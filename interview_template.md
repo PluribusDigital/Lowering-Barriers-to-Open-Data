@@ -1,4 +1,7 @@
-# Interview - Lowering-Barriers-to-Open-Data
+# Interview - Lowering Barriers to Open Data
+
+| Name    |                              |
+| Organization |                          |
 
 ### What is your biggest open data success story? Your highest-value datasets?
 
