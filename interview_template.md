@@ -4,6 +4,8 @@
 | --- | ---|
 | Name    |                              |
 | Organization |                          |
+| Position | |
+| Email | |
 
 ### What is your biggest open data success story? Your highest-value datasets?
 
