@@ -23,5 +23,6 @@
 
 ### Closing/Housekeeping
 * May we quote you in the report?
+* May we make these interview notes available as reference material in our report?
 * If we come up with additional specific followup questions, would you be willing to take a short call?
 * Is there anyone else you recommend we speak with - either in your organization or outside?
