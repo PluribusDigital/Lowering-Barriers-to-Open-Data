@@ -3,7 +3,7 @@ STSI Whitepaper on the technical barriers to publishing government data sets.
 
 ### Draft Status: Initial Rough Outline
 This report is just getting started, with the first anticipated complete version in early 2015.
-The current draft is at [report/index.md]
+The current draft is in the [report](https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/blob/master/report/index.md) folder.
 
 ### Contributing
 If you have an issue or idea related to the report, please log an issue. 
