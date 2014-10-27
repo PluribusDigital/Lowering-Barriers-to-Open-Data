@@ -1,5 +1,5 @@
 # Lowering-Barriers-to-Open-Data
-STSI Whitepaper on the technical barriers to publishing government data sets.
+STSI Whitepaper on the technical barriers to publishing government data sets. In the spirit of open data, we are developing this report in the open. Although quite rough at first, you can browse through the emerging outline and contents as we build it.
 
 ### Draft Status: Initial Rough Outline
 This report is just getting started, with the first anticipated complete version in early 2015.
