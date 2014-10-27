@@ -33,6 +33,15 @@ This report focuses primarily on the Technology gate.
 * PII Masking
 
 ## Open Data Technical Solution Outline
+* Data portal
+  - Catalog
+  - Data Dictionary
+  - Metadata
+* Developer portal
+  - API usage examples
+  - API Key documentation (if applicable)
+* API of APIs
+* URL conventions
 
 ## Additional Resources
 
