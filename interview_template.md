@@ -7,11 +7,13 @@
 | Position | |
 | Email | |
 
+### Interview Commitments
+* All interviews are off the record until the interviewee gives permission otherwise (e.g. for quotes, etc.)
+
 ### Short Answer
 * Is there a Chief Data Officer (or similar) role in your organization? (i.e. someone charged with the enterprise-wide responsibility to drive open data efforts)
 * How many datasets are available on data.gov?
 * How many datasets will your organization publish in the next year?
-
 
 ### Could you describe your organization's open data efforts? Current state, future ambitions?
 
