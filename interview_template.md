@@ -7,7 +7,7 @@
 | Position | |
 | Email | |
 
-### Interview Commitments
+### Interview Confidentiality
 * All interviews are off the record until the interviewee gives permission otherwise (e.g. for quotes, etc.)
 
 ### Short Answer
