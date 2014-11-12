@@ -19,7 +19,7 @@
 
 ### What is your biggest open data success story? Your highest-value datasets?
 
-### Is policy or technology the biggest barrier to publishing data?
+### Is policy or technology the greater barrier to publishing data?
 
 ### Other than the areas that we've drilled into, do you have any big unanswered questions related to open data?
 
