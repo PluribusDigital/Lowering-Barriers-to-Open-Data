@@ -15,13 +15,31 @@
 * How many datasets are available on data.gov?
 * How many datasets will your organization publish in the next year?
 
+### How does sharing data advance your organization's mission?
+* 
+* 
+* 
+
 ### Could you describe your organization's open data efforts? Current state, future ambitions?
+* 
+* 
+* 
 
 ### What is your biggest open data success story? Your highest-value datasets?
+* 
+* 
+* 
 
 ### Is policy or technology the greater barrier to publishing data?
+* 
+* 
+* 
+
 
 ### Other than the areas that we've drilled into, do you have any big unanswered questions related to open data?
+* 
+* 
+* 
 
 ### Closing/Housekeeping
 * May we quote you in the report?
