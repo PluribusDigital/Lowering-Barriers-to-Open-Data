@@ -23,6 +23,12 @@ This report focuses primarily on the Technology gate.
 * Publishing
 * Hosting
 
+## Closing the Feedback Loop
+* Tracking stats
+* Feedback tools
+  - Github issue tracker
+  - other?
+
 ## Using Technology to Break Down Policy Barriers
 * PII Masking
 
