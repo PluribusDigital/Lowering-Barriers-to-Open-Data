@@ -23,6 +23,11 @@ This report focuses primarily on the Technology gate.
 * Publishing
 * Hosting
 
+## Engaging the Community
+* Initial feedback
+* Promote usage
+  - Hackathons/Datapalooza
+
 ## Closing the Feedback Loop
 * Tracking stats
 * Feedback tools
