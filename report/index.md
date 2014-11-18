@@ -20,11 +20,16 @@ This report focuses primarily on the Technology gate.
 * Described
 
 ## Breaking Down Technical Barriers
+* Gathering
+  - Many data owners/creators don't care about data formats, they care about their primary field.
 * Publishing
 * Hosting
+* Feedback
+  - All over the map, most commonly email box
 
 ## Engaging the Community
 * Initial feedback
+  - Comfort level / desire varies by data owner, even within agencies
 * Promote usage
   - Hackathons/Datapalooza
 
