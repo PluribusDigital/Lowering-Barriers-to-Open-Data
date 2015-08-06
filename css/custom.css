@@ -1,0 +1,141 @@
+/* ================
+   BASICS 
+   ================ */
+body {
+  font-family: 'PT Serif', serif;
+}
+h1, h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h1 {margin-top: 0px;}
+
+main.mdl-layout__content {
+  margin-left: 270px !important;
+}
+
+/* ================
+   SIDE NAV 
+   ================ */
+div.mdl-layout__drawer {
+  font-family: 'Roboto', sans-serif;
+  width: 270px;
+  background-color: #fff;
+  padding-top: 20px;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link,
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  font-size: 1.5em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: rgb(33, 150, 243);
+}
+.mdl-layout__drawer>.mdl-layout-title {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.sidebar-content {
+  padding-left: 40px;
+  text-decoration: none;
+}
+
+
+
+/* ================
+   PULL QUOTES
+   ================ */
+.pullquote {
+  float:right;
+  width: 50%;
+  color: #fff;
+  background-color: #444;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding:15px;
+  margin: 10px;
+}
+.pullquote .quotetext {
+  font-size: 20px;
+  font-style: italic;
+}
+.pullquote .quotetext:before {
+  content: '\201C';
+  font-size: 30px;
+  line-height: 20px;
+}
+.pullquote .quotetext:after {
+  content: '\201D';
+  font-size: 30px;
+  line-height: 20px;
+}
+.pullquote .quotesource {
+  text-align: right;
+}
+
+.highlight-pullout {
+  float:left;
+  width: 33%;
+  color: #fff;
+  background-color: #f44;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding:15px;
+  margin: 10px;
+}
+
+/* ================
+   PRINTING
+   ================ */
+.printheader {
+  display:none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+@media print {
+
+  .noprint {
+    display: none !important;
+  }
+
+  .printheader {
+    display:block !important;
+  }
+
+  div.mdl-layout {
+    overflow: visible;
+  }
+
+  main.mdl-layout__content {
+    margin-left: 0px !important;
+    overflow-x: visible;
+    overflow-y: auto;
+  }
+
+  div.page-content {
+    padding-left:3em !important;
+    padding-right:3em !important;
+    padding-top:0em !important;
+  }
+
+  h1 {
+    margin-top:0px !important;
+  }
+
+  body {
+    background-color: #fff !important;
+  }
+
+}

@@ -1,24 +1,318 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Lowering Barriers to Open Data by STSILABS</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Personal site of Ben Morris.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lowering Barriers to Open Data | Ben Morris</title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="bengm">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <!-- styles -->
+     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.red-blue.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/custom.css">
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <img src="images/stsi_logo.png" alt="STSI Logo" width="168" height="75"/>
-        <h1>Report: <em>Lowering Barriers to Open Data</em></h1>
-        <p>STSI report on the technical barriers to publishing government data sets</p>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+          <header class="mdl-layout__header mdl-layout--small-screen-only noprint">
+  <div class="mdl-layout-icon"></div>
+  <div class="mdl-layout__header-row">
+    <!-- Title -->
+    <div class="mdl-layout-spacer"></div>
+    <span class="mdl-layout-title">STSI</span>
+    <!-- Add spacer, to align navigation to the right -->
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-layout-spacer"></div>
+  </div>
+</header>
 
+<div class="mdl-layout__drawer noprint">
+  <div class="mdl-layout-title">
+    <img src="/images/stsi_corner_logo_200x61.png" width="200" height="61"><br>
+  </div>
+  <div class="mdl-layout-title">
+    <em>STSI Whitepaper</em><br>Lowering Barriers to Open Data
+  </div>
+  <nav class="mdl-navigation">
+  
+    <a class="mdl-navigation__link" href="#Introduction">Introduction</a>
+  
+    <a class="mdl-navigation__link" href="#Stage 1 - Policy Planning">Stage 1 - Policy Planning</a>
+  
+    <a class="mdl-navigation__link" href="#Stage 2 - Preparing Open Data">Stage 2 - Preparing Open Data</a>
+  
+    <a class="mdl-navigation__link" href="#Stage 3 - Publishing the Data">Stage 3 - Publishing the Data</a>
+  
+    <a class="mdl-navigation__link" href="#Stage 4 - Supporting the Data">Stage 4 - Supporting the Data</a>
+  
+    <a class="mdl-navigation__link" href="#Conclusion">Conclusion</a>
+  
+    <a class="mdl-navigation__link" href="#References">References</a>
+  
+  </nav>
+  <div class="mdl-layout-spacer"></div>
+  <p class="sidebar-content"><em>find us at:</em></p>
+  <a href="http://stsiinc.com" target="_blank" class="sidebar-content "><i class="mdi mdi-web"></i> stsiinc.com</a>
+  <a href="https://twitter.com/stsiinc" target="_blank" class="sidebar-content "><i class="mdi mdi-twitter"></i> @stsiinc</a>
+  <div class="mdl-layout-spacer"></div>
+  <p class="sidebar-content">If you have an issue or idea related to the report, please submit a pull request or <a href="https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/issues">log an issue</a>. </p>
+  <div class="mdl-layout-spacer"></div>
+</div>
+          <div class="printheader">
+            <strong>STSI</strong> <small>| Lowering Barriers to Open Data | printed August 06, 2015</small>
+          </div>
+          <main class="mdl-layout__content">
+            <div class="page-content" style="padding:3em;">
+              <h1>Lowering Barriers to Open Data</h1>
+              
+  <a name="Introduction"></a>
+  <h2>Introduction</h2>
+  <h3 id="executive-summary">Executive Summary</h3>
+
+<p>Leaders at the forefront of open data manage four activities: Planning, Preparing, Publishing and Supporting. Together these four domains form the Open Data Life Cycle. STSI spoke with a broad group of open data visionaries, data owners and data publishers to collect best practices for managing open data.</p>
+
+<h3 id="the-challenge-of-open-government">The Challenge of Open Government</h3>
+
+<p>With its open government directive in 2009 and 2013 Executive Order “Making Open and Machine Readable the New Default for Government Information” the White House set clear policy goals for the Federal Government’s data resources. </p>
+
+<blockquote>Government information shall be managed as an asset throughout its life cycle to promote interoperability and openness, and, wherever possible and legally permissible, to ensure that data are released to the public in ways that make the data easy to find, accessible, and usable. In making this the new default state, executive departments and agencies (agencies) shall ensure that they safeguard individual privacy, confidentiality, and national security.</blockquote>
+
+<p>Administrators must meet the challenge of open government and open data policies while securing sensitive data, meeting citizen &amp; user needs, navigating rapidly changing technology, and working under shrinking budgets. This White Paper provides strategies for managing the four stage life cycle of open government data and shares best practices and technical solutions to help meet these challenges.</p>
+
+<ol>
+  <li><strong>Planning</strong> - identify data, establish agency policies, prioritize data sets, create internal governance and accountability.</li>
+  <li><strong>Preparing</strong> - scrub data, define metadata.</li>
+  <li><strong>Publishing</strong> - format the data and host it.</li>
+  <li><strong>Supporting</strong> - increase adoption, market, provide support, source control management, incorporate customer feedback.</li>
+</ol>
+
+
+  <a name="Stage 1 - Policy Planning"></a>
+  <h2>Stage 1 - Policy Planning</h2>
+  <p>Before releasing open data, the agency identifies which datasets should be published – or even what data exists. They establish internal governance controls to make sure the process maintains momentum.</p>
+
+<div class="pullquote">
+  <div class="quotetext">Identifying data is a challenge – it’s so spread out across different programs and individuals</div>
+  <div class="quotesource">NASA Program Manager</div>
+</div>
+
+<h4 id="identifying-data">Identifying data.</h4>
+
+<p>Most agencies have completed a first pass of identifying data sources to comply with administrative orders. Now is the time to take stock of what data additional data might add value. You may find uncollected, mission additive data that could be released by answering the following questions:</p>
+
+<ul>
+  <li>What is the current index of organizational data and where is that data maintained (e.g., healthdata.gov)?</li>
+  <li>In budget documents, such as OMB Exhbit 300 filings, what are the largest budget items and what data is associated with them?</li>
+  <li>What unstructured data (e.g., pdfs, Word files) exists? Where are the biggest IT storage uses and what are the largest file repositories?</li>
+  <li>Structured data (i.e., databases) - What are the databases that your agency maintains? What are the transactions in those systems?</li>
+  <li>What Freedom of Information Act (FOIA) requests are you receiving? In our discussions with administrators, we found that FOIA requests are often welcomed as part of the process of releasing open data. Can you operationalize the most valuable requests?</li>
+</ul>
+
+<h4 id="prioritizing-data-sets">Prioritizing data sets.</h4>
+
+<p>Once data is discovered, captured and indexed, it must be prioritized. Assigning value and weighing hundreds or thousands of datasets against one another is difficult. Fortunately, the European Union (E.U.) has been exploring these same issues and have written about methods for prioritization. 
+The paper titled “Value-based Prioritisation of Open Government Data Investments” by Leda Bargiotti, et. al explains how to use a “star” based system of prioritizing data. In short, your agency should take its index of datasets and assign each one a star based on specific dimensions to your agency.
+Borrowing from the E.U. and incorporating the White House executive order, a starting set of dimensions are: </p>
+
+<ul>
+  <li>Legal or administrative obligation to disclose – data required by law or other binding requirement.</li>
+  <li>Economic benefit &amp; social good – data that creates dollar or time savings, improves quality, or creates new jobs. Social good could be data that improves health outcomes or quality of life.</li>
+  <li>Innovation – data that could lead to new areas of development (e.g. allowing the civilian use of GPS signals or weather data).</li>
+  <li>Accountability &amp; transparency – how budgets are used or results of contracting awards.</li>
+  <li>Citizen interest – popularity with users based on inquiries like the number of FOIA requests made, or signatures to a petition.</li>
+</ul>
+
+<h4 id="creating-internal-accountability">Creating internal accountability.</h4>
+
+<p>Many sources of open data are byproducts mission-oriented work. Many data creators may not proactively release valuable datasets. Our discussions with leading administrators surfaced that agencies have had success identifying data “captains” that collaborate horizontally on managing open data within an agency’s internal communities. Captains perform the role of helping data creators make open data the “default”, share best practices and build accountability.
+Another simple tactic administrators cited for spurring the release of data is creating release calendars for high priority data. This creates a roadmap for data owners and administrators to plan for and follow.</p>
+
+
+
+  <a name="Stage 2 - Preparing Open Data"></a>
+  <h2>Stage 2 - Preparing Open Data</h2>
+  <p>Once data has been identified and prioritized, the agency prepares the data for publication. The data is scrubbed for sensitive &amp; personally identifying information (PII) and described with metadata.</p>
+
+<h4 id="protecting-pii">Protecting PII.</h4>
+
+<div class="highlight-pullout">Preparing data by cleaning and providing context are the most challenging part of the open data life-cycle.</div>
+
+<p>Removing PII data from data can be difficult, particularly for unstructured data. Autoredaction technologies are being used for text-based and unstructured data. However, for tabular or structured data, anonymizing data and blurring (aggregating) objects are the best methods for protecting privacy. The U.S. department of Education has useful guidelines for anonymizing data.</p>
+
+<blockquote>While it may not be possible to remove the disclosure risk completely, de-identification is considered successful when there is no reasonable basis to believe that the remaining information in the records can be used to identify an individual.</blockquote>
+
+<p>One guideline administrators mentioned for structured data was aggregating data points up to units of eleven or more. Meaning, that if a personal identifier has fewer than 11 units, it should be aggregated together at a higher level of grouping. For example, if you are publishing averages of standardized test scores for a school, in order to publish the average by classroom, it should have more than 10 students. Continuing with the example, if the classrooms has ten or fewer students, the scores should be aggregated to a larger grouping, like the grade-level.</p>
+
+<div class="pullquote">
+  <div class="quotetext">Protecting sensitive data is job number one for open data.</div>
+  <div class="quotesource">- Administrator, HHS</div>
+</div>
+
+<h4 id="providing-context-for-the-data">Providing context for the data.</h4>
+
+<p>Descriptive metadata makes datasets indexable and usable. Metadata content includes references to a data dictionary to define data elements, descriptions how the data was collected, guides on interpreting the data, and warnings or disclaimers. Publishing data on sites like data.gov necessitate metadata.</p>
+
+<p>You and your agency should verify personally identifying about the data creators is not being released the metadata. Metadata is also a place where you can be transparent about data and its shortcomings or at least provide a resource (i.e., a link) to where you maintain release notes. Even unstructured file formats such as PDF, Word, and Image files often have detailed, hidden metadata that is automatically generated and attached to the file.</p>
+
+
+  <a name="Stage 3 - Publishing the Data"></a>
+  <h2>Stage 3 - Publishing the Data</h2>
+  <div class="highlight-pullout">Publishing data is often the most technical aspect of the lifecycle, but also the fastest changing.</div>
+
+<p>Compared to some of the policy and data security issues that agencies face, publishing the data is less formidable. At the same time, administrators recognize that technology is fast moving and keeping up with the most desirable formats and reliable hosting solutions are important for achieving The White House’s order to make “data easy to find, accessible, and usable.”</p>
+
+<h4 id="formatting-data">Formatting data.</h4>
+
+<p>Formatting data, while not technically daunting, impacts how easy a dataset is to deliver, how popular a data set will be, and how useful it is to its audience. The current format of choice for developers is increasingly JSON. JSON is a format that is easily readable and supports hierarchy. XML has broad support for developers and is readable in analysis programs like Excel but results in larger files.</p>
+
+<p>Currently, spreadsheets do not easily support JSON files without additional conversion steps. If spreadsheets or other analytical tools are likely user’s predominate tool, CSV files (comma separated value) or XML may be the best format to publish. Spreadsheet programs like Excel easily save CSV and XML formatted data. Likewise, CSV files are easy to import into Excel. CSVs can sometimes be more difficult for developers to parse automatically given the wide variation in implementation. Also, CSV files do not support hierarchical data. A well-designed API will make data available in multiple formats per user preference.</p>
+
+<p>Also, different domains use different software. For example, much economic analysis is built on a proprietary tool named Stata. Health sciences often use SAS or R, the former being proprietary and the later being open source. Each program will read CSV and sometimes JSON but also have their own proprietary data formats. </p>
+
+<h4 id="publishing-an-api">Publishing an API.</h4>
+
+<p>Application programming interfaces (APIs) are how developers access the data and integrate it into new applications. Representational State Transfer (REST) APIs or RESTful APIs are the most common type of API today. RESTful APIs have generally overtaken other standards like SOAP.</p>
+
+<p>Well-designed APIs provide documentation for developers. There are several free tools to create API documentation, such as Swagger. The White House also publishes guidelines for creating, maintaining and documenting APIs.</p>
+
+<h4 id="hosting-data">Hosting data.</h4>
+
+<p>Many agencies have their own infrastructure for hosting datasets. Other options exist for open, non-classified data. Amazon Web Services is one of the most common data hosts but other IT firms also provide solutions (Windows Azure Storage and Google Cloud Storage). A price war is ongoing and could make hosted options more attractive than just a few years ago. These simple storage services can provide hosting for simple storage of raw, structured and unstructured data.</p>
+
+<p>To provide a data portal for data owners to manage, store and host data there are open source and proprietary options. CKAN (Comprehensive Knowledge Archive Network) is an open source package that often marries with a content management system like Wordpress or Drupal (see also DKAN). CKAN is used for data.gov.</p>
+
+<p>You can run CKAN on your own servers or even in cloud based hosts like Microsoft Azure and Amazon EC2. Companies like Socrata also offer data portal products that go beyond simple data storage and offer end-to-end solution which allow users to browse data hosted by your agency and also have some charting and analysis functions.</p>
+
+
+  <a name="Stage 4 - Supporting the Data"></a>
+  <h2>Stage 4 - Supporting the Data</h2>
+  <div class="highlight-pullout">Supporting open data is the most critical piece to maximizing citizen utility of the data.</div>
+
+<p>Once the data is in the “wild”, in some ways the most important work is just beginning. Engaging the community, maintaining data quality, answering users’ questions, providing support around a data set, incorporating customer feedback are all important tasks to achieve the policy set by the White House.</p>
+
+<h4 id="engaging-the-community">Engaging the community.</h4>
+
+<p>Agencies have established a successful blueprint for engaging users through datapaloozas and hackathons. An excellent example is the annual Health Datapalooza that has had over 2000 attendees per event. Another way administrators have found success is by engaging industry thought leaders. Similiar to hackathons, there are online competitions like Challenge.gov and kaggle.com where agencies can challenge the public to solve a problem or improve on existing solutions.</p>
+
+<h4 id="answering-questions">Answering questions.</h4>
+
+<p>There are public question and answer sites like opendata.stackexchange.com. These sites have been extremely popular for professional and hobbyists developers to interact. Users can build reputation points by answering questions and asking questions or performing other beneficial tasks like editing questions. Having data creators participate in these forums can increase uptake of different datasets.</p>
+
+<h4 id="capturing-feedback">Capturing feedback.</h4>
+
+<div class="pullquote">
+  <div class="quotetext">The current feedback loop is imperfect and a focus area for continuous improvement</div>
+  <div class="quotesource">- Data Administrator CMS</div>
+</div>
+
+<p>Many administrators we talked to cited obtaining feedback and engaging the community of data end users as key challenges. The promise of open data is that: if you make it available, anyone can make something great and unexpected from your data. However, this means that the target user is by definition unexpected. Agencies struggle to connect with those target developers and innovators who will do something great with the data. </p>
+
+<p>There are a variety of platforms for direct user support, both hosted and self-hosted. Some of the popular hosted platforms are desk.com, zoho.com, and zendesk.com. Data.gov is adding some basic functions around customer support. Customer support software also has the advantage that it can provide portal-like benefits for users where data owners can provide additional documentation related to the datasets. Also, questions can be shared and upvoted publicly so that data creators do not have to answer the same questions repeatedly. </p>
+
+<p>Using source control management (SCM) - One of the tools increasingly used by the public sector is hosted source control management (SCM). SCM is most useful for managing the code used to manipulate data and the documentation for the data. SCM does not typically host the data itself. SCM comes in different flavors with Git, Subversion (SVN), and Mercurial (Hg) all being open source favorites with developer. Git and its popular hosted incarnation, GitHub, currently have the greatest mindshare of users and attention. These hosted SCM platforms have issue trackers, documentation and wikis built-in to increase collaboration between creators and users. More and more, data scientists are also using these hosted platforms to open their code publicly.</p>
+
+
+  <a name="Conclusion"></a>
+  <h2>Conclusion</h2>
+  <p>By managing The Open Data Life Cycle in four parts, Planning, Preparing, Publishing and Supporting, agencies can operationalize releasing data, reduce barriers for creators and users, and achieve policy goals set by The White House. To help manage the Open Data Life Cycle, there are a number of policy and technical solutions to help meet this challenge of opening data. </p>
+
+<h2 id="about-stsi">About STSI</h2>
+
+<p>STSI is a digital government firm that can help you exceed the White House directives and departmental level open government objectives, manage the Open Data Life Cycle, and engage with users.</p>
+
+
+  <a name="References"></a>
+  <h2>References</h2>
+  <h3 id="open-data-references">Open Data References</h3>
+
+<p>CIO Council. 2012. Creating effective cloud computing contracts for the federal government: Best practices for acquiring IT as a service. Washington, DC: General Services Administration. http://www.gsa.gov/portal/mediaId/164011/fileName/cloudbestpractices.action (accessed March 21, 2014).</p>
+
+<p>Office of Management and Budget. 2009. Open Government Directive. Washington, DC: The White House https://www.whitehouse.gov/open/documents/open-government-directive (accessed April 20, 2015).</p>
+
+<p>Office of the Press Secretary. 2013. Executive Order – Making Open and Machine Readable the New Default for Government Information. Washington DC: The White House https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government- (accessed April 20, 2015).</p>
+
+<p>Immediate Office of the Secretary. 2015. Open Government Plan Version   3.0. Washington DC: Health and Human Services http://www.hhs.gov/sites/default/files/open/plan/open-gov-plan-v3.pdf (accessed May 20, 2015).</p>
+
+<p>McKinsey Global Institute. 2013. Open data: Unlocking innovation and performance with liquid information. San Francisco, CA: McKinsey http://www.mckinsey.com/insights/business_technology/open_data_unlocking_innovation_and_performance_with_liquid_information (accessed July 8, 2015).</p>
+
+<p>IDC Government Insights. 2012. The Impact of Big Data on Government. Alexandria, VA. Iron Mountain http://www.ironmountain.com/Knowledge-Center/Reference-Library/View-by-Document-Type/White-Papers-Briefs/Sponsored/IDC/The-Impact-of-Big-Data-on-Government.aspx</p>
+
+<p>Leda Bargiotti et al. 2013. Value-based prioritisation of Open Government Data
+investments. Brussels, Belgium. World Wide Web Consortium (W3C) https://www.w3.org/2013/share-psi/wiki/images/c/c0/Paper_Publishing_high-value_datasets_as_a_priority.pdf (accessed July 8, 2015)</p>
+
+<p>Ian Kalin. 2013. Datapalooza How-To Guide. Washington, DC. Socrata http://www.socrata.com/wp-content/uploads/Socrata-Datapalooza-How-To-Guide.pdf (accessed May </p>
+
+<p>Eric Whitney. 2013. Datapalooza: A Concept, A Conference And A Movement. Centennial, CO. National Public Radio http://www.npr.org/sections/health-shots/2013/06/07/189565146/datapalooza-a-concept-a-conference-and-a-movement (accessed July 8, 2015)</p>
+
+<h4 id="appendix-a---technical-appendix">Appendix A - Technical Appendix</h4>
+
+<p>Please note: The following sources is provided without endorsement or warranty by STSI, sources for this white paper or interviewees. The data should be used for information purposes only.</p>
+
+<p>Cloud Data Storage
+Amazon S3
+Microsoft Azure Storage
+Google Cloud Storage</p>
+
+<p>Source Control Management
+GitHub - https://github.com/
+Kiln - https://www.fogcreek.com/kiln/
+BitBucket - https://bitbucket.org/</p>
+
+<p>Q &amp; A sites
+Stackoverflow - http://opendata.stackexchange.com/
+Quora - http://www.quora.com/Open-Data</p>
+
+<p>Data Portals
+CKAN - http://ckan.org/
+Socrata Open Data Portal - http://www.socrata.com/products/open-data-portal/</p>
+
+<p>Application Programming Interface Documentation
+Swagger - http://swagger.io/
+Apiary - https://apiary.io/
+Mashape - https://www.mashape.com</p>
+
+<p>Customer Support -
+Zendesk - https://www.zendesk.com/
+Desk.com - http://www.desk.com/
+Freshdesk - http://freshdesk.com/
+Zoho - https://www.zoho.com/support/</p>
+
+
+
+<!-- 
 <p>In the spirit of open data, we are developing this report in the open. Although quite rough at first, you can browse through the emerging outline and contents as we build it.</p>
 
 <h3>
@@ -128,17 +422,26 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-25611655-3");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    -->
+ 
+            </div>
+          </main>
+      </div>
+
+    <!-- IE Compatibility shims -->
+      <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js""></script>
+      <![endif]-->
+
+      <!--[if IE]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.7/es5-shim.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flexie/1.0.3/flexie.min.js"></script>
+        <link href="../assets/ie.css" rel="stylesheet">
+      <![endif]-->
+    <!-- end shims -->
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
 
   </body>
 </html>
