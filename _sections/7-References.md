@@ -56,3 +56,6 @@ Zendesk - https://www.zendesk.com/
 Desk.com - http://www.desk.com/
 Freshdesk - http://freshdesk.com/
 Zoho - https://www.zoho.com/support/
+
+#### Image Credit
+Cover image: Alexander Jackson Davis "Interior of the Hall of Representatives" from http://www.loc.gov/exhibits/us.capitol/s4.html
