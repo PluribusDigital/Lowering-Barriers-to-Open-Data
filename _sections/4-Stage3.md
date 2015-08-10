@@ -1,5 +1,5 @@
 ---
-title: Stage 3 - Publishing the Data
+title: Stage 3 - Publish
 ---
 
 <div class="highlight-pullout">Publishing data is often the most technical aspect of the lifecycle, but also the fastest changing.</div>

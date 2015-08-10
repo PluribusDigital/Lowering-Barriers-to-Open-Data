@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Personal site of Ben Morris.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{page.title}} | Ben Morris</title>
+    <title>{{page.title}} | STSI</title>
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
@@ -48,12 +48,8 @@
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
           {% include nav.html %}
-          <div class="printheader">
-            <strong>STSI</strong> <small>| Lowering Barriers to Open Data | printed {{ site.time | date: '%B %d, %Y' }}</small>
-          </div>
           <main class="mdl-layout__content">
             <div class="page-content" style="padding:3em;">
-              <h1>{{ page.title }}</h1>
               {{content}} 
             </div>
           </main>

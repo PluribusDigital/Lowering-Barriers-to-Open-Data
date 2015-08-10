@@ -1,5 +1,5 @@
 ---
-title: Stage 1 - Policy Planning
+title: Stage 1 - Plan
 ---
 
 Before releasing open data, the agency identifies which datasets should be published -- or even what data exists. They establish internal governance controls to make sure the process maintains momentum.

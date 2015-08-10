@@ -1,5 +1,5 @@
 ---
-title: Stage 2 - Preparing Open Data
+title: Stage 2 - Prepare
 ---
 
 Once data has been identified and prioritized, the agency prepares the data for publication. The data is scrubbed for sensitive & personally identifying information (PII) and described with metadata.

@@ -1,5 +1,5 @@
 ---
-title: Stage 4 - Supporting the Data
+title: Stage 4 - Support
 ---
 
 <div class="highlight-pullout">Supporting open data is the most critical piece to maximizing citizen utility of the data.</div>

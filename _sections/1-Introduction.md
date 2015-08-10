@@ -2,9 +2,18 @@
 title: Introduction
 ---
 
+{% include lifecycle.html %}
+
 ### Executive Summary
 
 Leaders at the forefront of open data manage four activities: Planning, Preparing, Publishing and Supporting. Together these four domains form the Open Data Life Cycle. STSI spoke with a broad group of open data visionaries, data owners and data publishers to collect best practices for managing open data.
+
+<div class="chevron-group">
+  <div class="chevron">Plan</div>
+  <div class="chevron">Prepare</div>
+  <div class="chevron">Publish</div>
+  <div class="chevron">Support</div>
+</div>
 
 ### The Challenge of Open Government
 

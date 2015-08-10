@@ -13,16 +13,26 @@ h1, h2 {
 }
 h1 {margin-top: 0px;}
 
-main.mdl-layout__content {
-  margin-left: 270px !important;
+/* ================
+   NAV 
+   ================ */
+
+.mdl-layout__header {
+  background: #fff;
+  color: rgb(66, 66, 66);
+}
+.mdl-layout-title {
+  font-family: 'PT Serif', serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+  color: rgb(66, 66, 66);
 }
 
-/* ================
-   SIDE NAV 
-   ================ */
 div.mdl-layout__drawer {
   font-family: 'Roboto', sans-serif;
-  width: 270px;
+  /*width: 270px;*/
   background-color: #fff;
   padding-top: 20px;
 }
@@ -31,16 +41,21 @@ div.mdl-layout__drawer {
   font-size: 1.5em;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: rgb(33, 150, 243);
+  background-color: #ED4936;
+  color:#fff;
 }
 .mdl-layout__drawer>.mdl-layout-title {
   font-family: 'PT Serif', serif;
   font-size: 1em;
   line-height: 20px;
   margin-top: 10px;
+}
+.wp-title {
+  font-size: 1.8em;
+  font-weight: bold;
 }
 .sidebar-content {
   padding-left: 40px;
@@ -52,44 +67,120 @@ div.mdl-layout__drawer {
 /* ================
    PULL QUOTES
    ================ */
-.pullquote {
+blockquote, .pullquote {
   float:right;
-  width: 50%;
+  width: 33%;
   color: #fff;
   background-color: #444;
-  border: 1px solid #ddd;
+  border: 1px solid #444;
   border-radius: 10px;
   padding:15px;
   margin: 10px;
+  position:relative;
 }
-.pullquote .quotetext {
+.pullquote:before {
+   content:"";
+   position: absolute;
+   top: 100%;
+   left: 26px;
+   width: 0;
+   height: 0;
+   border-left: 13px solid transparent;
+   border-top: 26px solid #444;
+   border-right: 13px solid transparent;
+}
+blockquote {
+  float:none;
+  width: 90%;
+  padding-left:25px;
+}
+.pullquote .quotetext, blockquote {
   font-size: 20px;
   font-style: italic;
+  font-family: 'PT Serif', serif;
 }
-.pullquote .quotetext:before {
+.pullquote .quotetext:before, blockquote:before {
   content: '\201C';
   font-size: 30px;
   line-height: 20px;
+  left:3px;
+  color:#aaa;
 }
-.pullquote .quotetext:after {
+.pullquote .quotetext:after, blockquote:after {
   content: '\201D';
-  font-size: 30px;
+  font-size: 20px;
   line-height: 20px;
+  color:#aaa;
 }
 .pullquote .quotesource {
   text-align: right;
+  color: #ccc;
+}
+.pullquote .quotesource:before {
+  content: "- ";
 }
 
 .highlight-pullout {
   float:left;
   width: 33%;
   color: #fff;
-  background-color: #f44;
+  background-color: #ED4936;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding:15px;
   margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
+
+/* ================
+   CHEVRONs
+   ================ */
+.chevron-group {
+  padding: 10px;
+  margin-left: 20px;
+}
+.chevron, .chevron-a {
+  position: relative;
+  height: 30px;
+  width: 60px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 25px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 10px;
+  background-color: #ED4936;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.chevron:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  border: 20px solid #ED4936;
+  border-left: 20px solid transparent;
+  right: 100%;
+  top: 0em;
+}
+.chevron:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  line-height: 0px;
+  border: 20px solid transparent;
+  border-left: 20px solid #ED4936;
+  top: 0px;
+  left: 100%;
+}​
+
 
 /* ================
    PRINTING
@@ -114,14 +205,20 @@ div.mdl-layout__drawer {
     display:block !important;
   }
 
-  div.mdl-layout {
+  .paper-section {
+    page-break-after: always;
+  }
+
+  h2 {page-break-before:always;}
+
+  div.mdl-layout, main {
     overflow: visible;
   }
 
   main.mdl-layout__content {
     margin-left: 0px !important;
     overflow-x: visible;
-    overflow-y: auto;
+    overflow-y: visible;
   }
 
   div.page-content {
