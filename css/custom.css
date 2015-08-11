@@ -12,6 +12,7 @@ h1, h2 {
   font-weight: bold;
 }
 h1 {margin-top: 0px;}
+strong {font-weight: bolder;}
 
 div.paper-title {
   background: url('../images/capitol-drawing.jpg');
@@ -116,8 +117,13 @@ blockquote, .pullquote {
   border: 1px solid #444;
   border-radius: 10px;
   padding:15px;
-  margin: 10px;
+  margin:20px;
   position:relative;
+}
+.pullquote {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 70px;
 }
 .pullquote:before {
    content:"";
@@ -129,11 +135,6 @@ blockquote, .pullquote {
    border-left: 13px solid transparent;
    border-top: 26px solid #444;
    border-right: 13px solid transparent;
-}
-blockquote {
-  float:none;
-  width: 90%;
-  padding-left:25px;
 }
 .pullquote .quotetext, blockquote {
   font-size: 20px;
@@ -153,6 +154,12 @@ blockquote {
   line-height: 20px;
   color:#aaa;
 }
+blockquote {
+  float:none;
+  width: 90%;
+  padding-left:25px;
+  font-size: 1.2em;
+}
 .pullquote .quotesource {
   text-align: right;
   color: #ccc;
@@ -162,13 +169,12 @@ blockquote {
 }
 
 .highlight-pullout {
-  float:left;
-  width: 50%;
+  float:right;
+  width: 33%;
   color: #ED4936;
-  /*background-color: #ED4936;*/
-  /*border-radius: 10px;*/
   padding:0px;
-  margin: 10px;
+  margin: 20px;
+  margin-left: 40px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: normal;
@@ -179,6 +185,10 @@ blockquote {
   .pullquote, .highlight-pullout {
     width: 90%;
     float:none;
+    margin: 10px;
+  }
+  .pullquote {
+    margin-bottom: 50px;
   }
 }
 

@@ -2,14 +2,13 @@
 title: Introduction
 ---
 
-{% include lifecycle.html %}
+<img src="images/lifecycle.png" width="280" height="250" style="float:right; margin: 15px;">
 
 ### Executive Summary
 
-Leaders at the forefront of open data manage four activities: Planning, Preparing, Publishing and Supporting. Together these four domains form the Open Data Life Cycle. STSI spoke with a broad group of open data visionaries, data owners and data publishers to collect best practices for managing open data.
+Government agencies have made great strides in opening datasets. However, there is still a great opportunity to produce more datasets in better ways. This will allow agencies to better service citizens, and achieve the "force multiplier" effect that open data can provide. 
 
-<img src="images/lifecycle.png" width="100" height="100">
-
+Leaders at the forefront of open data manage four activities: **Plan**, **Prepare**, **Publish** and **Support**. Together these four domains form the Open Data Life Cycle. STSI spoke with a broad group of open data visionaries, data owners and data publishers to collect best practices and practical tactics for managing open data.
 
 ### The Challenge of Open Government
 
@@ -19,7 +18,7 @@ With its open government directive in 2009 and 2013 Executive Order “Making Op
 
 Administrators must meet the challenge of open government and open data policies while securing sensitive data, meeting citizen & user needs, navigating rapidly changing technology, and working under shrinking budgets. This White Paper provides strategies for managing the four stage life cycle of open government data and shares best practices and technical solutions to help meet these challenges.
 
-1. **Planning** - identify data, establish agency policies, prioritize data sets, create internal governance and accountability.
-2. **Preparing** - scrub data, define metadata.
-3. **Publishing** - format the data and host it.
-4. **Supporting** - increase adoption, market, provide support, source control management, incorporate customer feedback.
+1. **Plan** - identify and prioritize data, establish policies, create internal governance and accountability
+2. **Prepare** - scrub data and define metadata
+3. **Publish** - format the data and host it
+4. **Support** - increase adoption, market, incorporate customer feedback
