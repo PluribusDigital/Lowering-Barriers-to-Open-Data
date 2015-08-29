@@ -10,4 +10,4 @@ STSI is a digital government firm that can help you exceed the White House direc
 
 ### About this White Paper
 
-In the spirit of open data, this whitepaper is published in the open. The report contents are available in a [GitHub](https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/tree/gh-pages) repository. If you have an issue or idea related to the report, please submit a pull request or <a href="https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/issues">log an issue</a>.
+In the spirit of open data, this white paper is published in the open. The report contents are available in a [GitHub](https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/tree/gh-pages) repository. If you have an issue or idea related to the report, please submit a pull request or <a href="https://github.com/STSILABS/Lowering-Barriers-to-Open-Data/issues">log an issue</a>.
