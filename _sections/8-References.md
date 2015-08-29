@@ -3,7 +3,7 @@ title: References
 ---
 
 
-CIO Council. 2012. Creating effective cloud computing contracts for the federal government: Best practices for acquiring IT as a service. Washington, DC: General Services Administration. [http://www.gsa.gov/portal/mediaId/164011/fileName/cloudbestpractices.action](http://www.gsa.gov/portal/mediaId/164011/fileName/cloudbestpractices.action) (accessed March 21, 2014).
+CIO Council. 2012. Creating effective cloud computing contracts for the federal government: Best practices for acquiring IT as a service. Washington, DC: General Services Administration. https://www.fedramp.gov/files/2015/03/Cloud-Best-Practices.pdf (accessed March 21, 2014).
 
 Office of Management and Budget. 2009. Open Government Directive. Washington, DC: The White House [https://www.whitehouse.gov/open/documents/open-government-directive](https://www.whitehouse.gov/open/documents/open-government-directive) (accessed April 20, 2015).
 
