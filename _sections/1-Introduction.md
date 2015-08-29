@@ -12,7 +12,7 @@ Leaders at the forefront of open data manage four activities: **Plan**, **Prepar
 
 ### The Challenge of Open Government
 
-With its open government directive in 2009 and 2013 Executive Order “Making Open and Machine Readable the New Default for Government Information” the White House set clear policy goals for the Federal Government’s data resources. 
+With its [open government directive in 2009][1] and 2013 Executive Order “[Making Open and Machine Readable the New Default for Government Information][2]” the White House set clear policy goals for the Federal Government’s data resources. 
 
 <blockquote>Government information shall be managed as an asset throughout its life cycle to promote interoperability and openness, and, wherever possible and legally permissible, to ensure that data are released to the public in ways that make the data easy to find, accessible, and usable. In making this the new default state, executive departments and agencies (agencies) shall ensure that they safeguard individual privacy, confidentiality, and national security.</blockquote>
 
@@ -22,3 +22,7 @@ Administrators must meet the challenge of open government and open data policies
 2. **Prepare** - scrub data and define metadata
 3. **Publish** - format the data and host it
 4. **Support** - increase adoption, market, incorporate customer feedback
+
+[1]: https://www.whitehouse.gov/open/documents/open-government-directive
+[2]: https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-
+
