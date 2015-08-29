@@ -23,6 +23,6 @@ Administrators must meet the challenge of open government and open data policies
 3. **Publish** - format the data and host it
 4. **Support** - increase adoption, market, incorporate customer feedback
 
-[1]: https://www.whitehouse.gov/open/documents/open-government-directive
-[2]: https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-
+[1]: <https://www.whitehouse.gov/open/documents/open-government-directive>
+[2]: <https://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government->
 
