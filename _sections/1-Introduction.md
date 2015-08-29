@@ -16,7 +16,7 @@ With its [open government directive in 2009][1] and 2013 Executive Order “[Mak
 
 <blockquote>Government information shall be managed as an asset throughout its life cycle to promote interoperability and openness, and, wherever possible and legally permissible, to ensure that data are released to the public in ways that make the data easy to find, accessible, and usable. In making this the new default state, executive departments and agencies (agencies) shall ensure that they safeguard individual privacy, confidentiality, and national security.</blockquote>
 
-Administrators must meet the challenge of open government and open data policies while securing sensitive data, meeting citizen & user needs, navigating rapidly changing technology, and working under shrinking budgets. This White Paper provides strategies for managing the four stage life cycle of open government data and shares best practices and technical solutions to help meet these challenges.
+Administrators must meet the challenge of open government and open data policies while securing sensitive data, meeting citizen & user needs, navigating rapidly changing technology, and working under shrinking budgets. This white paper provides strategies for managing the four stage life cycle of open government data and shares best practices and technical solutions to help meet these challenges.
 
 1. **Plan** - identify and prioritize data, establish policies, create internal governance and accountability
 2. **Prepare** - scrub data and define metadata
