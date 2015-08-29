@@ -16,9 +16,11 @@ Most agencies have completed a first pass of identifying data sources to comply 
  
  - What is the current **index** of organizational data and where is that data maintained (e.g., healthdata.gov)?
  - In budget documents, such as OMB Exhbit 300 filings, what are the largest **budget items** and what data is associated with them?
- - What **unstructured data** (e.g., pdfs, Word files) exists? Where are the biggest IT storage uses and what are the largest file repositories?
+ - What **[unstructured data][3]** (e.g., pdfs, Word files) exists? Where are the biggest IT storage uses and what are the largest file repositories?
  - What are the **databases** that your agency maintains? What are the transactions in those systems?
  - What **Freedom of Information Act (FOIA) requests** are you receiving? In our discussions with administrators, we found that FOIA requests are often welcomed as part of the process of releasing open data. Releasing data by default can reduce the administrative burden (and cost) of fielding FOIA requests. Can you operationalize the most valuable requests?
+
+[3]: https://en.wikipedia.org/wiki/Data_model
 
 #### Prioritize Data Sets
 
