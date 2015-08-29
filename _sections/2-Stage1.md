@@ -10,10 +10,10 @@ Before releasing open data, the agency identifies which datasets should be publi
   <div class="quotesource">NASA Program Manager</div>
 </div>
 
-#### Identify Data 
+#### Identify Data
 
 Most agencies have completed a first pass of identifying data sources to comply with administrative orders. Now is the time to take stock of what additional data might add value. You may find uncollected, mission additive data that could be released by answering the following questions:
- 
+
  - What is the current **index** of organizational data and where is that data maintained (e.g., healthdata.gov)?
  - In budget documents, such as OMB Exhbit 300 filings, what are the largest **budget items** and what data is associated with them?
  - What **[unstructured data][3]** (e.g., pdfs, Word files) exists? Where are the biggest IT storage uses and what are the largest file repositories?
@@ -24,9 +24,9 @@ Most agencies have completed a first pass of identifying data sources to comply 
 
 #### Prioritize Data Sets
 
-Once data is discovered, captured and indexed, it must be prioritized. Assigning value and weighing hundreds or thousands of datasets against one another is difficult. Fortunately, the European Union (E.U.) has been exploring these same issues and have written about methods for prioritization. 
+Once data is discovered, captured and indexed, it must be prioritized. Assigning value and weighing hundreds or thousands of datasets against one another is difficult. Fortunately, the European Union (E.U.) has been exploring these same issues and have written about methods for prioritization.
 The paper titled “Value-based Prioritisation of Open Government Data Investments” by Leda Bargiotti, et. al explains how to use a “star” based system of prioritizing data. In short, your agency should take its index of datasets and assign each one a star based on specific dimensions to your agency.
-Borrowing from the E.U. and incorporating the White House executive order, a starting set of dimensions are: 
+Borrowing from the E.U. and incorporating the White House executive order, a starting set of dimensions are:
 
 - **Obligation** -- data required by law or other binding requirement.
 - **Economic/Social benefit** -- data that creates dollar or time savings, improves quality of life, improves health outcomes, creates new jobs, etc. 
