@@ -8,7 +8,7 @@ Compared to some of the policy and data security issues that agencies face, publ
 
 #### Format Data
 
-Formatting data, while not technically daunting, impacts how easy a dataset is to deliver, how popular a data set will be, and how useful it is to its audience. The current format of choice for developers is increasingly JSON. JSON is a format that is easily readable and supports hierarchy. XML has broad support for developers and is readable in analysis programs like Excel but results in larger files.
+Formatting data, while not technically daunting, impacts how easy a dataset is to deliver, how popular a data set will be, and how useful it is to its audience. The current format of choice for developers is increasingly JSON. JSON is a format that is easily machine and human readable and supports hierarchy. XML has broad support for developers and is readable in analysis programs like Excel but results in larger files.
 
 Currently, spreadsheets do not easily support JSON files without additional conversion steps. If spreadsheets or other analytical tools are likely user’s predominate tool, CSV files (comma separated value) or XML may be the best format to publish. Spreadsheet programs like Excel easily save CSV and XML formatted data. Likewise, CSV files are easy to import into Excel. CSVs can sometimes be more difficult for developers to parse automatically given the wide variation in implementation. Also, CSV files do not support hierarchical data. A well-designed API will make data available in multiple formats per user preference.
 
