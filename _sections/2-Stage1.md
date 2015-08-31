@@ -34,6 +34,8 @@ Borrowing from the E.U. and incorporating the White House executive order, a sta
 - **Accountability** -- increase transparency regarding how budgets are used or results of contracting awards.
 - **Citizen interest** -- popularity with users based on inquiries like the number of FOIA requests made, or signatures to a petition.
 
+Note: the Federal CIO Council recently published an [Open Data Prioritization Toolkit](https://cio.gov/wp-content/uploads/filebase/cio_document_library/Open%20Data%20Prioritization%20Toolkit%20Summary.html), which is another useful prioritization tool.
+
 #### Create Internal Accountability
 
 Many sources of open data are byproducts mission-oriented work, but data creators may not proactively release valuable datasets. Our discussions with leading administrators surfaced that agencies have had success identifying data “captains” that collaborate horizontally on managing open data within an agency’s internal communities. Captains perform the role of helping data creators make open data the “default”, share best practices and build accountability.
